@@ -1,0 +1,31 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+body{background-image: url("rainbow.webp");height: 100vh;
+background-size:cover;overflow: hidden;background-position: top center;background-repeat: no-repeat;}
+#app-main{width: 50vh;
+margin: 100px auto;padding: 20px;text-align: center;background-color: rgba(182, 220, 221,0.6);}
+#app-main > *{margin-bottom: 20px;}
+.inputBox{width:100%;
+background-color: rgba(255,255,255,0.6);
+border: none;outline: none;font-size: 1.3rem;
+height: 50px;
+color: midnightblue;
+border-radius: 10px;
+padding: 0 10px;
+text-align: center;}
+.inputBox:focus{
+    background-color: rgb(255,255,255);
+}
+.weatherBody{
+    display: none;
+    color: midnightblue;
+    padding: 20px;
+    line-height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.6);
+    height: 50vh;
+}
+.weather-details{padding: 20px;
+}
+.location-details,.min-max,.weather{font-weight: bolder;
+font-size: 1.4rem;line-height: 40px;}
+.temp{font-size: 60pt;font-weight: 700;margin: 20px;text-shadow:2px 4px rgba(0,0,0,0.2) ;}
